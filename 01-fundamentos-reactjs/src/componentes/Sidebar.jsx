@@ -8,14 +8,11 @@ const Sidebar = () => {
     return (
         <aside className={styles.sidebar}>
             <img className={styles.cover} src={src_img} />
-
             <div className={styles.profile}>
                 <img className={styles.avatar} src="https://github.com/victorfmesq.png" />
-
                 <strong>João Victor</strong>
                 <span>Web Developer</span>
             </div>
-
             <footer>
                 <a href="#">
                     <PencilLine size={20}/>

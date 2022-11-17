@@ -1,6 +1,6 @@
 
 import Header from "./componentes/Header"
-import Post from "./Post"
+import Post from "./componentes/Post"
 import Sidebar from "./componentes/Sidebar"
 import "./global.css"
 
@@ -14,14 +14,8 @@ const App = () => {
     <div className={styles.wrapper}>
       <Sidebar />
       <main>
-        <Post
-          author="João Victor"
-          content="Estou estudando React"
-        />
-        <Post
-          author="Fulano"
-          content="Também estou estudando React!"
-        />
+        <Post />
+        <Post />
       </main>
     </div>
   </div>
