@@ -1,0 +1,11 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto; /* 2rem top and botton / auto laterais (centraliza)*/
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: 256px 1fr; /* 1ª coluna com tamanho fixo / segunda com tamanho variável (centraliza)*/
+    gap: 2rem;
+    align-items: flex-start
+}
+
